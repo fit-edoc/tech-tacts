@@ -46,18 +46,18 @@ const Nav = () => {
             className="fixed top-0 opacity-100 md:opacity-0 z-20 left-0 w-full h-[70vh]"
           >
             <div className="mobile h-[90%] w-[90%] opacity-100 md:opacity-0  uppercase  px-2 flex flex-col items-center justify-evenly  list-none left-[5%] bg-white/5 backdrop-blur-xl absolute top-[10%]"> 
-             <div className="w-full h-[40px] border-2 mt-2 border-white ">  <Link>
+             <div className="w-full h-[40px] border-2 mt-2 border-white ">  <HashLink to="#hero">
           <li className="bg-white/50 text-black px-2">Home</li>
-        </Link></div>
-        <div className="w-full h-[40px] border-2 border-white">  <Link>
+        </HashLink></div>
+        <div className="w-full h-[40px] border-2 border-white">  <HashLink to="#offer">
           <li className="bg-white/50 text-black px-2">our Services</li>
-        </Link></div>
-        <div className="w-full h-[40px] border-2 border-white">  <Link>
+        </HashLink></div>
+        <div className="w-full h-[40px] border-2 border-white">  <HashLink>
           <li className="bg-white/50 text-black px-2">our work</li>
-        </Link></div>
-        <div className="w-full h-[40px] border-2 border-white">  <Link>
+        </HashLink></div>
+        <div className="w-full h-[40px] border-2 border-white">  <HashLink>
           <li className="bg-white/50 text-black px-2">contact</li>
-        </Link></div></div>
+        </HashLink></div></div>
           </motion.div>
         )}
       </AnimatePresence>

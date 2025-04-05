@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+
 motion
 const Offer = () => {
 
@@ -39,10 +40,12 @@ const servicedata = [
 
 
   return (
-    <div className='offer absolute min-h-screen w-full'>
-      <div className='absolute left-[5.5%] min-h-screen w-[90%] bg-white/5 backdrop-blur-xl'>
+    <>
+    
+    <div className='offer relative w-full py-16'>
+      <div className='relative left-[5.5%] w-[90%] bg-white/5 backdrop-blur-xl'>
        <div className='text-center h-[80px] font-head flex items-center justify-center w-full'>
-         <h1 className='text-emerald-50 text-3xl md:text-[3vw]'>Services and offers</h1>
+         <h1 className='text-emerald-50 text-3xl md:text-[3vw]'>Services</h1>
        </div>
        <div className="px-4 py-8">
 
@@ -57,7 +60,10 @@ const servicedata = [
     </div>
       </div>
       </div>
+      
     </div>
+    
+    </>
   )
 }
 
