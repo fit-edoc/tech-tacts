@@ -48,8 +48,8 @@ const Plan = () => {
 
           {data.map((offer) => (
             <div key={offer.id} className=' text-center'>
-              <div className='cop h-[10vh] md:w-[50vw] rounded-lg  text-start flex justify-center items-center gap-[-1px] bg-white/5  border-2 border-blue-200 '> <h1 className='text-2xl inline-block font-extrabold  text-white rounded-xl'>{offer.name}</h1><h3 className=' bg-slate-50 px-1 h-[50px] w-[50px] rounded-full text-center text-emerald-500'>{offer.discount}</h3></div>
-              <h3 className='text-white bg-black  rounded-b-full mb-3'>{offer.description}</h3>
+              <div className='cop h-[10vh] md:w-[50vw] rounded-lg  text-start flex justify-center items-center gap-[-1px] bg-white/5  border-2 border-blue-200  '> <h1 className='text-xl inline-block font-extrabold  text-white rounded-xl'>{offer.name}</h1><h3 className=' bg-slate-50 px-2 py-2  rounded-full text-center text-emerald-500'>{offer.discount}</h3></div>
+              <h3 className='text-white bg-black  rounded-sm  mb-3 px-3 md:rounded-b-full'>{offer.description}</h3>
                 
             </div>
 
