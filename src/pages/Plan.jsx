@@ -40,16 +40,16 @@ const Plan = () => {
     
         
   return (
-    <div className='plan h-[100vh] w-screen relative'>
-        <div className='h-full w-[90%] bg-white/5 backdrop-blur-xl absolute  left-[5.5%]'>
+    <div className='plan h-[100vh] w-screen relative '>
+        <div className='h-full w-[90%] bg-white/5 backdrop-blur-xl absolute  left-[5.5%] overflow-auto'>
             <h1 className='text-center text-white text-3xl  font-head my-auto mt-2 text-nowrap md:text-[2.5vw]'>Big Savings offers</h1>
             <h4 className='text-center text-yellow-50'>Exclusive limited-time discounts on all our digital services."</h4>
           <div className='flex flex-col items-center gap-4 mt-4 my-auto'>
 
           {data.map((offer) => (
-            <div key={offer.id} className=' text-center'>
-              <div className='cop h-[10vh] md:w-[50vw] rounded-lg  text-start flex justify-center items-center gap-[-1px] bg-white/5  border-2 border-blue-200  '> <h1 className='text-xl inline-block font-extrabold  text-white rounded-xl'>{offer.name}</h1><h3 className=' bg-slate-50 px-2 py-2  rounded-full text-center text-emerald-500'>{offer.discount}</h3></div>
-              <h3 className='text-white bg-black  rounded-sm  mb-3 px-3 md:rounded-b-full'>{offer.description}</h3>
+            <div key={offer.id} className=' text-cente'>
+              <div className='cop h-[10vh] w-[270px] mx-auto md:w-[50vw] rounded-lg  text-start flex justify-center items-center gap-[2px] bg-white/5  border-2 border-blue-200  '> <h1 className='text-md md:text-2xl inline-block font-mono  text-white rounded-xl'>{offer.name}</h1><h3 className=' bg-slate-50 px-1 py-1  rounded-full text-center text-emerald-500'>{offer.discount}</h3></div>
+              <h3 className='text-white   rounded-sm  mb-3 px-3 md:rounded-b-full'>{offer.description}</h3>
                 
             </div>
 

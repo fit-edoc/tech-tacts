@@ -64,8 +64,8 @@ background-image: linear-gradient(315deg, #5A4FCF 0%, #a697a6 74%);
     content: "";
     position: absolute; 
     inset: 0px;
-    background: rgb(174,217,238);
-background: radial-gradient(circle, rgba(174,217,238,1) 0%, rgba(122,106,214,1) 100%);
+    background: rgb(16, 30, 218);
+background: radial-gradient(circle, rgb(42, 26, 51) 0%, rgba(122,106,214,1) 100%);
     transform: translate3d(0px,0px,-5px);
     pointer-events: none;
   }
@@ -73,15 +73,7 @@ background: radial-gradient(circle, rgba(174,217,238,1) 0%, rgba(122,106,214,1) 
 
 
   /* HTML: <div class="curved-edge"></div> */
-footer{
-    --c: 90px; /* control the curvature (works with percentage) */
-    height: 15vh;
-    width: 100%;
-    aspect-ratio: 1;
-    /* you can also update the 60%  */
-    mask: radial-gradient(60% var(--c) at 50% var(--c),#0000 calc(100% - 2px),#000) 0 calc(-1*var(--c));
-    background: #40C0CB;
-  }
+
 
   .insta{ 
     background: #f09433; 
@@ -89,4 +81,14 @@ footer{
   background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    }
+
+  
+
+    .foot{
+    
+            background-color: #5A4FCF;
+        background-image: linear-gradient(315deg, #5A4FCF 0%, #423d7b 74 74%);
+        
+        
     }
