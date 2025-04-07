@@ -51,7 +51,7 @@ const servicedata = [
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[100px] md:p-8">
       {servicedata[0].map((service) => (
-        <motion.div key={service.id} className="bg-white/10 p-8 md:h-[50vh] md:w-[25vw] rounded-lg shadow-lg"  initial={{opacity:0,y:200}} whileTap={{scale:1.1}} whileInView={{opacity:1,y:0}} transition={{duration:0.4,ease:"backInOut"}}>
+        <motion.div key={service.id} className="bg-white/10 p-8 md:h-[50vh] md:w-[25vw] rounded-lg shadow-lg cursor-pointer"  initial={{opacity:0,y:200}} whileTap={{scale:1.1}} whileInView={{opacity:1,y:0}} transition={{duration:0.4,ease:"backInOut"}}>
           <h3 className={`text-xl font-bold mb-2  px-2 text-emerald-50 bg-gradient-to-r from-[#a697a6] rounded-lg`} >{service.name}</h3>
           <p className="text-gray-200 mb-4">{service.description}</p>
           <img src={service.img} alt={service.name} className="w-full h-48 object-cover bg-gradient-to-r from-transparent to-white/50   rounded-md hover:from-white/50  hover:to-orange-100"/>

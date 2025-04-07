@@ -47,7 +47,7 @@ const Plan = () => {
           <div className='flex flex-col items-center gap-4 mt-4 my-auto'>
 
           {data.map((offer) => (
-            <div key={offer.id} className=' text-cente'>
+            <div key={offer.id} className=' text-center cursor-pointer'>
               <div className='cop h-[10vh] w-[270px] mx-auto md:w-[50vw] rounded-lg  text-start flex justify-center items-center gap-[2px] bg-white/5  border-2 border-blue-200  '> <h1 className='text-md md:text-2xl inline-block font-mono  text-white rounded-xl'>{offer.name}</h1><h3 className=' bg-slate-50 px-1 py-1  rounded-full text-center text-emerald-500'>{offer.discount}</h3></div>
               <h3 className='text-white   rounded-sm  mb-3 px-3 md:rounded-b-full'>{offer.description}</h3>
                 

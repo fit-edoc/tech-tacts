@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        head:["head"]
+        head:["head"],
+        logo:["logo"]
       }
     },
   },

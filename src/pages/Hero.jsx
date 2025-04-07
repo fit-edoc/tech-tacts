@@ -15,7 +15,7 @@ const Hero = () => {
             animate={{ top: "60%" ,opacity:1}}
             transition={{duration:1,ease:"easeInOut"}}
           >
-            <h1 className="text-2xl md:text-[5vw] text-white font-head">
+            <h1 className="logo text-2xl md:text-[5vw] text-white font-logo ">
               TECH TACTS
             </h1>
             <h2 className="text-[3vw] md:mt-2 text-blue-50 font-extralight">

@@ -1,8 +1,11 @@
 @font-face {
     font-family: head;
-    src: url('./fonts/sans-sulex.regular.ttf')format("woff2");
+    src: url('./fonts/cs-garth-3d-demo.ruderight.otf')format("woff2");
 }
-
+@font-face {
+    font-family: logo;
+    src: url(./fonts/used-servers.bold.ttf)format("woff2");
+}
 
 
 *{
@@ -88,7 +91,21 @@ background: radial-gradient(circle, rgb(42, 26, 51) 0%, rgba(122,106,214,1) 100%
     .foot{
     
             background-color: #5A4FCF;
-        background-image: linear-gradient(315deg, #5A4FCF 0%, #423d7b 74 74%);
-        
-        
+        background-image: linear-gradient(315deg, #5A4FCF 0%, #423d7b 74 74%);    
     }
+
+    .logo {
+        
+        animation: slide-left 6s infinite  ease-in-out forwards;
+      }
+    
+      @keyframes slide-left {
+        from {
+          text-shadow: 0px 0px 0px white;
+          
+        }
+        to {
+            text-shadow: 0px 0px 100px white;
+          
+        }
+      }

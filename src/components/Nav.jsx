@@ -15,7 +15,7 @@ const Nav = () => {
     <>
       <motion.div className="nav  md:h-[70px] w-[85%] fixed z-30 mx-auto mt-3 left-[7.9%] rounded-full bg-black md:bg-red-400 flex items-center" initial={{width:"0%",opacity:0}} animate={{width:"85%",opacity:1}}transition={{duration:0.9,ease:"easeInOut"}} >
       <div className="h-full w-[50%] flex justify-start">
-        <h1 className="my-auto mx-2 text-lg md:text-[2vw] text-white">TechTacts</h1>
+        <h1 className="my-auto mx-2 text-lg md:text-[2.5vw]  font-head text-white">TechTacts</h1>
       </div>
       <div className="h-full w-[50%] flex list-none items-center justify-end gap-5 text-white opacity-0 md:opacity-100">
         <HashLink smooth to='#hero'>
