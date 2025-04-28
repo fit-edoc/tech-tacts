@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true, // Allows access from LAN & external networks
-    port: 5173, // Change port if needed
+    port: 3000, // Change port if needed
     strictPort: true, // Ensures the exact port is used
     open: true, // Opens browser on start
     cors: true, // Enables CORS
